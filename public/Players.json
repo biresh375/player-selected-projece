@@ -1,0 +1,152 @@
+[
+  {
+    "player_image": "https://i.ibb.co.com/838xhmY/virat-koholi.jpg",
+    "player_name": "Virat Kohli",
+    "player_country": "India",
+    "player_rating": 9.8,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm medium",
+    "price": 1500000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/rKvTKjmS/ben-Stokes.jpg",
+    "player_name": "Ben Stokes",
+    "player_country": "England",
+    "player_rating": 9.2,
+    "bating_style": "Left-hand bat",
+    "boling_style": "Right-arm fast-medium",
+    "price": 1400000,
+    "playing_role": "All-rounder"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/0jtnwWTK/Steve-Smith.jpg",
+    "player_name": "Steve Smith",
+    "player_country": "Australia",
+    "player_rating": 9.0,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm leg spin",
+    "price": 1300000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/5WH7f6Mx/Jasprit-Bumrah.jpg",
+    "player_name": "Jasprit Bumrah",
+    "player_country": "India",
+    "player_rating": 9.5,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm fast",
+    "price": 1250000,
+    "playing_role": "Bowler"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/PzjT3Qhy/Shakib-Al-Hasan.jpg",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "player_rating": 9.3,
+    "bating_style": "Left-hand bat",
+    "boling_style": "Left-arm orthodox spin",
+    "price": 1350000,
+    "playing_role": "All-rounder"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/Ngz6Yg9p/David-Warne.jpg",
+    "player_name": "David Warner",
+    "player_country": "Australia",
+    "player_rating": 8.9,
+    "bating_style": "Left-hand bat",
+    "boling_style": "Right-arm leg spin",
+    "price": 1200000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/YBd9Q6Gm/Rashid-Khan.jpg",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "player_rating": 9.4,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm leg spin",
+    "price": 1100000,
+    "playing_role": "Bowler"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/4wFhHPTv/Kane-Williamson.jpg",
+    "player_name": "Kane Williamson",
+    "player_country": "New Zealand",
+    "player_rating": 9.1,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm offbreak",
+    "price": 1250000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/qFphYcSY/Joe-Root.jpg",
+    "player_name": "Joe Root",
+    "player_country": "England",
+    "player_rating": 9.0,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm offbreak",
+    "price": 1180000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/TxRTYW21/Andre-Russell.jpg",
+    "player_name": "Andre Russell",
+    "player_country": "West Indies",
+    "player_rating": 8.8,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm fast-medium",
+    "price": 1100000,
+    "playing_role": "All-rounder"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/v4CFMC77/Babar-Azam.jpg",
+    "player_name": "Babar Azam",
+    "player_country": "Pakistan",
+    "player_rating": 9.6,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm offbreak",
+    "price": 1400000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/Ktm90kh/Faf-du-Plessis.jpg",
+    "player_name": "Faf du Plessis",
+    "player_country": "South Africa",
+    "player_rating": 8.7,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm leg spin",
+    "price": 1000000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/CpLdPhWC/Glenn-maxwell.jpg",
+    "player_name": "Glenn Maxwell",
+    "player_country": "Australia",
+    "player_rating": 8.9,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm offbreak",
+    "price": 1150000,
+    "playing_role": "All-rounder"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/9mDKVzQf/KL-Rahul.jpg",
+    "player_name": "KL Rahul",
+    "player_country": "India",
+    "player_rating": 8.8,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Right-arm medium",
+    "price": 1050000,
+    "playing_role": "Batsman"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/G4RNvgFH/Trent-Boult.jpg",
+    "player_name": "Trent Boult",
+    "player_country": "New Zealand",
+    "player_rating": 9.1,
+    "bating_style": "Right-hand bat",
+    "boling_style": "Left-arm fast-medium",
+    "price": 1200000,
+    "playing_role": "Bowler"
+  }
+]

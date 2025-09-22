@@ -1,11 +1,13 @@
 import { Suspense, useState } from "react";
-import { ToastContainer} from 'react-toastify';
+import { ToastContainer } from "react-toastify";
 import "./App.css";
 
 import AvilablePlayers from "./Components/AvilablePlayers/AvilablePlayers";
 import Navber from "./Components/Navber/Navber";
 import Loading from "./Components/loading/Loading";
 import SelectedPlayers from "./Components/SelectedPlayers/SelectedPlayers";
+import Banner from "./Components/Banner/Banner";
+import Footer from "./Components/footerSection/Footer";
 
 const fetchPlayers = async () => {
   const res = await fetch("/Players.json");
@@ -22,7 +24,7 @@ function App() {
       (puschage) => puschage.player_name !== ply.player_name
     );
     setPUrchagePlayer(updatepuschagePlayer);
-    seAvailableBalance(availableBalance+ply.price);
+    seAvailableBalance(availableBalance + ply.price);
   };
 
   // console.log(puschagePlayer);
@@ -32,6 +34,8 @@ function App() {
         availableBalance={availableBalance}
         seAvailableBalance={seAvailableBalance}
       ></Navber>
+      <Banner seAvailableBalance={seAvailableBalance}
+      availableBalance={availableBalance}></Banner>
       <div className="max-w-[1200px] mx-auto flex justify-between items-center py-5">
         <h1 className="font-bold text-2xl">
           {toggle
@@ -43,13 +47,13 @@ function App() {
             onClick={() => SetToggle(true)}
             className={`${
               toggle === true ? "bg-amber-300" : ""
-            } font-semibold py-2 px-6 border border-gray-300 rounded-xl  sm:rounded-l-xl sm:rounded-r-none sm:border-r-0`}
+            } font-semibold py-2 px-6 border border-gray-300 rounded-xl  sm:rounded-l-xl sm:rounded-r-none sm:border-r-0 cursor-pointer`}
           >
             Available
           </button>
           <button
             onClick={() => SetToggle(false)}
-            className={`font-semibold py-2 px-6 border border-gray-300 rounded-xl md:rounded-r-xl sm:rounded-l-none md:border-l-0 ${
+            className={`font-semibold py-2 px-6 border border-gray-300 rounded-xl md:rounded-r-xl sm:rounded-l-none md:border-l-0 cursor-pointer ${
               toggle === false ? "bg-amber-300" : ""
             }`}
           >
@@ -70,10 +74,13 @@ function App() {
         </Suspense>
       ) : (
         <SelectedPlayers
+          SetToggle={SetToggle}
           removePlayer={removePlayer}
           puschagePlayer={puschagePlayer}
         ></SelectedPlayers>
       )}
+
+      <Footer></Footer>
       <ToastContainer></ToastContainer>
     </>
   );

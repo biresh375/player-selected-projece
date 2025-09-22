@@ -26,6 +26,8 @@ const PlayerCart = ({
     setIsSelected(true);
     seAvailableBalance(availableBalance - playerData.price);
     setPUrchagePlayer([...puschagePlayer, playerData]);
+
+    toast("player added")
   };
 
   return (

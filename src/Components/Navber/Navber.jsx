@@ -2,11 +2,8 @@ import React from "react";
 import logo from "../../assets/logo.png"
 import coinPng from "../../assets/dollar1.png"
 
-const Navber = ({availableBalance,seAvailableBalance}) => {
-  const handleCoins=(availableBalance)=>{
-    seAvailableBalance(availableBalance+10000)
-    
-  }
+const Navber = ({availableBalance}) => {
+ 
 
 
 
@@ -21,7 +18,7 @@ const Navber = ({availableBalance,seAvailableBalance}) => {
       <div className="flex items-center gap-1">
         <span className="font-bold text-xl">{availableBalance}</span>
         <span className="font-bold text-xl">Coin</span>
-        <img onClick={()=>handleCoins(availableBalance)} src={coinPng} alt="dolar Png icon" />
+        <img  src={coinPng} alt="dolar Png icon" />
       </div>
     </div>
   );
